@@ -10,9 +10,6 @@ const LandingPage = () => {
     <>
         <NavigationBar/>
         <Heromain/>
-        <HeroAfter />
-        <Faq />
-        <ContactBottom />
         <CopyRight />
     </>
   )

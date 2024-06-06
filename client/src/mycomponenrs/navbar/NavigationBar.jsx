@@ -132,7 +132,7 @@ const NavigationBar = () => {
                 {!notLoggedIn &&
                   (
                     <>
-                      <Link to="/chats" className='homepage_navigation_navMenuPageLinks'>Chats</Link> 
+                      <Link to="/wiki" className='homepage_navigation_navMenuPageLinks'>Wikipedia</Link> 
                       <Link to="/chatbot" className='homepage_navigation_navMenuPageLinks'>Chatbot</Link> 
                     </>
                   )

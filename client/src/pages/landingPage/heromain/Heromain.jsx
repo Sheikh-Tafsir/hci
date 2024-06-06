@@ -2,7 +2,12 @@ import React from 'react'
 import './Heromain.css'
 const Heromain = () => {
   return (
-    <div className='homapage_heromain'>
+    <>
+    <div className='home-image'>
+          <img src="/public/wiki/home.png" />
+          <img src="/public/wiki/home2.png" />
+        </div>
+    {/* <div className='homapage_heromain'>
         <div className='homapage_heromain_mainBox'>
             <div className='homapage_heromain_textBox'>
                 <p>Explore waste management</p>
@@ -18,7 +23,8 @@ const Heromain = () => {
             </div>
         </div>
 
-    </div>
+    </div> */}
+    </>
   )
 }
 
