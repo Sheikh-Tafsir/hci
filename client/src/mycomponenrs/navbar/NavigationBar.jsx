@@ -129,14 +129,16 @@ const NavigationBar = () => {
             <div className='homepage_navigation_navMenu'>
               <div className="my-auto homepage_navigation_navSubMenu">
                 <Link to="/" className='homepage_navigation_navMenuPageLinks'>Home</Link> 
-                {!notLoggedIn &&
+                <Link to="/wiki" className='homepage_navigation_navMenuPageLinks'>Wikipedia</Link> 
+                <Link to="/chatbot" className='homepage_navigation_navMenuPageLinks'>Chatbot</Link> 
+                {/* {!notLoggedIn &&
                   (
                     <>
                       <Link to="/wiki" className='homepage_navigation_navMenuPageLinks'>Wikipedia</Link> 
                       <Link to="/chatbot" className='homepage_navigation_navMenuPageLinks'>Chatbot</Link> 
                     </>
                   )
-                }
+                } */}
                 {userInfo.role == 1 && 
                   (
                     <>

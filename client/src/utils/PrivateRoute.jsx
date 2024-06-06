@@ -9,17 +9,14 @@ const PrivateRoute = () => {
     let loggedIn = checkLogin();
 
     return(
-        !loggedIn ? 
+        // !loggedIn ? 
         <>
-          {/* {user.role == 1?
-            <NavigationBarAdmin/>:<NavigationBar />
-          } */}
+
           <NavigationBar />
           <Outlet/> 
           {/* <CopyRight/> */}
         </>
-        : 
-        <Navigate to="/login" />
+
     )
 }
 
