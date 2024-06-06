@@ -1,0 +1,114 @@
+.wikiMain{
+    background-color: #f9f9f9;
+}
+.wikiMain h1{
+    font-size: 2.4vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    padding-bottom: 0.8vw;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgb(120,120,120);
+    margin-bottom: 2vw;
+    font-weight: 600;
+}
+.wiki-page {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+    display: flex;
+}
+
+.wiki-page h1{
+    text-align: center;
+    font-size: 2.5vw;
+    border-bottom: 1px solid rgb(150,150,150);
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1vw;
+    padding-top:1vw ;
+}
+.wiki-content{
+    background-color: white;
+    padding: 2.5vw 2vw;
+    width: 17vw;
+    margin-bottom: 1vw;
+    margin-right: 3vw;
+}
+.wiki-content h2{
+    border-bottom: 1px solid rgba(120,120,120);
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-bottom: 0.5vw;
+    margin-bottom: 1vw;
+}
+.wiki-content p{
+    margin-bottom: 1.5vw;
+    font-weight: 600;
+}
+.wiki-textBox{
+    padding-top: 1.5vw;
+    width: 72vw;
+}
+.wiki-imageBox {
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    overflow: hidden;
+}
+
+.wiki-imageBoxImages {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1.5vw);
+}
+.button-containe input{
+    padding: 1vw;
+}
+.image-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.wiki-data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wiki-data {
+    width: 62%; 
+}
+
+.wiki-videos {
+    width:33%; 
+    background-color: white;
+}
+
+.wiki-videos video {
+    width: 100%;
+    height: auto;
+}
+
+.wiki-data h2{
+    font-size: 1.3vw;
+    border-bottom: 1px solid rgb(120,120,120);
+    font-weight: 600;
+    padding-bottom: 0.5vw;
+    margin-top: 1vw;
+}
+
+.wiki-content p{
+    
+}
+
+ 

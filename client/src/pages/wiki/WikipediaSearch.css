@@ -1,0 +1,64 @@
+.wikipedia{
+    padding-top: 10vw;
+}
+.wiki-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 10vw;
+    margin-bottom: 2vw;
+}
+.wiki-navbar-inputbar{
+    width: 30vw;
+}
+.wiki-navbar Input{
+    
+    border-radius: 2vw;
+    padding:0 1.5vw;
+    border: 1px solid rgba(80,80,80);
+}
+.wikipedia ul{
+    position: absolute;
+    background-color: white;
+    width: 30vw;
+    padding: 0.5vw 2vw;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+.wiki-article-top-bar{
+    border: 1px solid black;
+    border-radius: 0.4vw;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    height: 2.5vw;
+    padding: 0 2vw ;
+    justify-content: space-between;
+    font-size: 0.9vw;
+    margin-bottom: 1vw;
+}
+.wiki-article-top-subbar{
+    display: flex;
+}
+.wiki-article-top-subbar p{
+    margin: 0 0.5vw ;
+}
+
+.wiki-article-bar{
+    background-color: rgba(73, 122, 197, 0.17);
+    display: flex;
+    height: 3vw;
+    padding: 0 10vw ;
+    justify-content: space-between;
+}
+.wiki-article-subbar{
+    display: flex;
+}
+.wiki-article-subbar p{
+    margin: 0 1vw ;
+}
+.microphone-button{
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}

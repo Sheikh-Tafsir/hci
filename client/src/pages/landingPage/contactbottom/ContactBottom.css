@@ -1,0 +1,177 @@
+.homepage_contact_bottom{
+    background-color:#F5F7FB;
+}
+@media screen and (min-width: 992px) {
+    .homepage_contact_bottomBox{
+        width: 86%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .homepage_contact_bottom_imageBox{
+        width: 31%;
+        margin-top: -3.5vw;
+    }
+    .homepage_contact_bottom_imageBox img{
+        width: 100%;
+    }
+    .homepage_contact_bottom_form{
+        width: 50%;
+        margin-top: 3vw;
+    }
+    .homepage_contact_bottom_form h1{
+        font-size: 1.8vw;
+        font-weight: 650;
+        color:black;
+        margin-bottom: 0.5vw;
+    }
+    .homepage_contact_bottom_form p{
+        font-size: 1vw;
+        margin-bottom: 2vw;
+    }
+    .homepage_contact_bottom_form_inputs{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.8vw;
+    }
+    .homepage_contact_bottom_form_inputs input{
+        width: 32%;
+        height: 2.7vw;
+        padding: 0 1vw;
+        border: 1px solid rgb(0,0,0,0.5);
+        border-radius: 0.3vw;
+    }
+    .homepage_contact_bottom_form textarea{
+        width: 100%;
+        height: 7vw;
+        border: 1px solid rgb(0,0,0,0.5);
+        margin-bottom: 0.3vw;
+        border-radius: 0.4vw;
+        padding: 1vw;
+    }
+    .homepage_contact_bottom_form button{
+        width: 100%;
+        height: 2.7vw;
+        color:white;
+        background-color: #275A54FA;
+        border-radius: 0.4vw;
+        margin-bottom: 0.5vw;
+    }
+    .homepage_contact_bottom_form_inputs-h2{
+        text-align: center;
+        font-size: 1vw;
+        margin-bottom: 0.5vw;
+        color:rgb(61, 117, 61);
+    }
+    .homepage_contact_bottom_form_inputs-h2-p{
+        text-align: center;
+        font-size: 1vw;
+        margin-bottom: 0.5vw;
+        color:red;
+    }
+    .homepage_contact_bottom_joinBox{
+        width: 8%;
+    }
+    .homepage_contact_bottom_join{
+        background-color: #275A54FA;
+        height: 7vw;
+        width: 7vw;
+        border-radius: 50%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin-top: 4vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .homepage_contact_bottomBox{
+        width: 86%;
+        margin: auto;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+    .homepage_contact_bottom_imageBox{
+        width: 60%;
+        margin: auto;
+    }
+    .homepage_contact_bottom_imageBox img{
+        width: 100%;
+    }
+    .homepage_contact_bottom_form{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .homepage_contact_bottom_form h1{
+        font-size: 5vw;
+        font-weight: 650;
+        color:black;
+        margin-bottom: 0.5vw;
+    }
+    .homepage_contact_bottom_form p{
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+    .homepage_contact_bottom_form_inputs{
+        width: 100%;
+        margin-bottom: 0.8vw;
+    }
+    .homepage_contact_bottom_form_inputs input{
+        width: 100%;
+        height: 9vw;
+        padding: 0 3vw;
+        border: 1px solid rgb(0,0,0,0.5);
+        border-radius: 1vw;
+        font-size: 2.7vw;
+        margin-bottom: 2vw;
+    }
+    .homepage_contact_bottom_form textarea{
+        width: 100%;
+        height: 25vw;
+        border: 1px solid rgb(0,0,0,0.5);
+        margin-bottom: 0.3vw;
+        border-radius: 1.5vw;
+        padding: 2vw 3vw;
+        font-size: 3vw;
+    }
+    .homepage_contact_bottom_form button{
+        width: 100%;
+        height: 9vw;
+        color:white;
+        background-color: #275A54FA;
+        border-radius: 1vw;
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+    .homepage_contact_bottom_form_inputs-h2{
+        color:rgb(61, 117, 61);
+        text-align: center;
+        font-size: 3vw;
+    }
+    .homepage_contact_bottom_form_inputs-h2-p{
+        text-align: center;
+        font-size: 3vw;
+        color:red;
+    }
+    .homepage_contact_bottom_joinBox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4vw;
+    }
+    .homepage_contact_bottom_join{
+        background-color: #275A54FA;
+        height: 20vw;
+        width: 20vw;
+        border-radius: 50%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: white;
+        margin-top: 4vw;
+        font-size: 3vw;
+        padding: 1vw;
+    }
+}
