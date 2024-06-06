@@ -4,8 +4,8 @@ const Heromain = () => {
   return (
     <>
     <div className='home-image'>
-          <img src="/public/wiki/home.png" />
-          <img src="/public/wiki/home2.png" />
+          <img src="/wiki/home.png" />
+          <img src="/wiki/home2.png" />
         </div>
     {/* <div className='homapage_heromain'>
         <div className='homapage_heromain_mainBox'>
